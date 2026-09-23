@@ -4,6 +4,7 @@
 - [Avaliação na disciplina](docs/avaliacao.md)
 - [GitHub Pages no projeto da disciplina](docs/github-pages.md)
 - Minhas entradas
+  - [Formação da equipe e primeiros fluxos de integração](blog/2026-09-23-formacao-da-equipe.md)
   - [Exemplo — Formação de equipe](blog/2027-03-10-formacao-de-equipe-exemplo.md)
 
 <!--
