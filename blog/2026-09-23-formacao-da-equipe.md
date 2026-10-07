@@ -1,41 +1,18 @@
 ---
-title: "Formação da equipe e primeiros fluxos de integração — 23/09/2026"
+title: "Diário de bordo 1 — 23/09/2026"
 authors: [Gabriel Sousa Silva]
 tags: [formacao-equipe]
 date: 2026-09-23
 ---
 
-## Descreva como está sendo o processo de organização da sua equipe até agora — papéis, expectativas, primeiras decisões.
+## 1. Descreva como está sendo o processo de organização da sua equipe até agora — papéis, expectativas, primeiras decisões.
 
-No começo, a equipe dividiu os estudos e depois definiu as partes do projeto:
-extração, backend, banco e frontend. Fiquei mais responsável pelo backend e
-pela extração. Essa divisão ajudou a organizar o trabalho, mas também mostrou
-que não basta cada pessoa terminar sua parte isoladamente: precisamos combinar
-bem como uma camada conversa com a outra.
+No começo, dividimos os estudos e depois as partes do projeto entre extração, backend, banco de dados e frontend. Fiquei mais responsável pelo backend e pela extração dos cardápios. Ao trabalhar nessas partes, percebi que precisava combinar como os dados seriam recebidos pelo banco, então registrei o contrato de importação e as mudanças necessárias. Quero continuar alinhando essas dependências nas próximas sprints e acompanhar melhor a integração com o frontend.
 
-Por isso, além do código, registrei o contrato de importação do cardápio e as
-mudanças que o banco precisa receber. Quero continuar fazendo isso nas próximas
-sprints, principalmente antes de depender da implementação de outra pessoa.
+## 2. Que sensações ou pensamentos você tem tido em relação ao início desta disciplina e ao projeto que vocês vão desenvolver?
 
-## Que sensações ou pensamentos você tem tido em relação ao início desta disciplina e ao projeto que vocês vão desenvolver?
+O projeto parece mais próximo de algo real do que outros trabalhos que já fiz. A extração dos PDFs foi o que mais me deixou atento, porque o RU não tem uma API e o formato dos arquivos pode mudar. Quando consegui testar os PDFs dos cinco campi e sincronizar os dados, o projeto ficou mais concreto para mim. Mesmo assim, percebi que os testes passando não resolvem tudo: ainda precisamos conferir a integração com o banco e o frontend.
 
-O projeto parece mais próximo de algo real do que trabalhos que já fiz antes.
-O cardápio do RU não tem API e os PDFs podem mudar a qualquer semana, então a
-extração foi a parte que mais me deixou atento. Quando testei com os PDFs reais
-dos cinco campi e consegui sincronizar os dados, o projeto ficou mais concreto.
+## 3. Que conhecimentos, ferramentas ou práticas você sente que já domina, e quais ainda são novidade para você neste momento?
 
-Também percebi que testes passando não significam que tudo está resolvido. A
-validação com banco e frontend ainda é importante. Quero acompanhar melhor essa
-integração para entender como a API funciona para quem vai consumi-la.
-
-## Que conhecimentos, ferramentas ou práticas você sente que já domina, e quais ainda são novidade para você neste momento?
-
-Tenho mais segurança com Python, Git e testes. Nesta fase, pratiquei FastAPI,
-Pydantic, `pytest`, Docker e cobertura de testes enquanto trabalhava no backend
-e na extração. A parte mais nova para mim foi lidar com PDF: pequenas mudanças
-no layout podem alterar completamente a leitura das tabelas.
-
-Também aprendi que Docker e documentação fazem parte da entrega. Configurar o
-ambiente e explicar o contrato para o banco foram tão necessários quanto criar
-os endpoints. Ainda quero melhorar na revisão e na integração das mudanças da
-equipe.
+Tenho mais segurança com Python, Git e testes. Nesta fase, pratiquei FastAPI, Pydantic, pytest e Docker no backend e na extração. Lidar com PDFs foi a parte mais nova para mim, principalmente pelas diferenças no layout das tabelas. Também percebi a importância de documentar o formato dos dados para quem vai trabalhar nas outras partes do projeto. Ainda quero melhorar na revisão e na integração das mudanças da equipe.
